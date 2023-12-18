@@ -1,0 +1,8 @@
+@keyframes line{
+    0%{
+        border: 2px solid blue ;
+    } ;
+    50%{
+        border: 3px solid blue;
+    }
+}
