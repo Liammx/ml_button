@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 10px 10px;
+}
+.button{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: red;
+    font-size: 16px;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.button:hover{
+    color: orange;
+    border: 2px solid orange;
+    font-size: 24px;
+    box-shadow: 0 5px 30px rgb(241, 2, 2);
+    transition: 1s all;
+    outline: 0;
+}

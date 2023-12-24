@@ -30,3 +30,270 @@
     transition: 1s all;
     outline: 0;
 }
+.content{
+    width: 100%;
+    height: 90%;
+    border: 1px solid transparentgit ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    padding: 10px 10px;
+}
+.roum{
+    width: 400px;
+    height: 550px;
+    border: 1px solid #fff;
+}
+.goldlane{
+    width: 400px;
+    height: 550px;
+    border: 1px solid #fff;
+}
+.midlane{
+    width: 400px;
+    height: 550px;
+    border: 1px solid #fff;
+}
+:root {
+    --card-height: 65vh;
+    --card-width:calc(var(--card-heigth) /1.5)
+}
+.explane{
+    border: 1px solid orange;
+    background: #191c29;
+    width: 400px;
+    height: 550px;
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5em;
+    color: orange;
+    cursor: pointer;
+    font-family: cursive;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-image: url('../exp.jpg');
+}
+.explane:hover{
+    color: rgb(199, 163, 5);
+    transition:  2s;
+    box-shadow: 0px 5px 100px orange;
+    width: 650px;
+    height: 750px;
+    border: 3px solid darkorange;
+}
+.explane:hover:before, .card:hover:after{
+    animation: none;
+    opacity: 0;
+}
+.explane::before{
+    content: '';
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: 
+    linear-gradient(
+        var(--rotate),#5ddcff,#3c67e3 43%, #4e00c2
+        );
+        position: absolute;
+        z-index: -1;
+        top: -1;
+        left: -2;
+        animation: spin 2.5s linear infinite;
+    }
+    .junglear{
+        border: 1px solid red;
+        background: #191c29;
+        width: 400px;
+        height: 550px;
+        padding: 3px;
+        position: relative;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 1.5em;
+        color: red;
+        cursor: pointer;
+        font-family: cursive;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        background-image: url('../jungle.jpg');
+    }
+    .junglear:hover{
+        color: rgba(139, 57, 61, 0.664);
+        transition:  2s;
+        box-shadow: 10px 5px 100px red;
+        width: 650px;
+        height: 750px;
+        border: 3px solid darkred;
+    }
+    .junglear:hover:before, .card:hover:after{
+        animation: none;
+        opacity: 0;
+    }
+    .junglear::before{
+        content: '';
+        width: 104%;
+        height: 102%;
+        border-radius: 8px;
+        background-image: 
+        linear-gradient(
+            var(--rotate),#5ddcff,#3c67e3 43%, #4e00c2
+            );
+            position: absolute;
+            z-index: -1;
+            top: -1;
+            left: -2;
+            animation: spin 2.5s linear infinite;
+        }
+        .goldlane{
+            border: 1px solid yellow;
+            background: #191c29;
+            width: 400px;
+            height: 550px;
+            padding: 3px;
+            position: relative;
+            border-radius: 6px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 1.5em;
+            color: yellow;
+            cursor: pointer;
+            font-family: cursive;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;  
+            background-image: url('../gold.jpg');
+        }
+        .goldlane:hover{
+            color:gold;
+            transition:  2s;
+            box-shadow: 0px 5px 100px yellow;
+            width: 650px;
+            height: 750px;
+            border: 3px solid yellow;
+        }
+        .goldlane:hover:before, .card:hover:after{
+            animation: none;
+            opacity: 0;
+        }
+        .goldlane::before{
+            content: '';
+            width: 104%;
+            height: 102%;
+            border-radius: 8px;
+            background-image: 
+            linear-gradient(
+                var(--rotate),#5ddcff,#3c67e3 43%, #4e00c2
+                );
+                position: absolute;
+                z-index: -1;
+                top: -1;
+                left: -2;
+                animation: spin 2.5s linear infinite;
+            }            
+            .roum{
+                border: 1px solid green;
+                background: #191c29;
+                width: 400px;
+                height: 550px;
+                padding: 3px;
+                position: relative;
+                border-radius: 6px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                font-size: 1.5em;
+                color: green;
+                cursor: pointer;
+                font-family: cursive;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;  
+                background-image: url('../roam.jpg');
+            }
+            .roum:hover{
+                color: lime;
+                transition:  2s;
+                box-shadow: 0px 5px 100px green;
+                width: 650px;
+                height: 750px;
+                border: 3px solid darkgreen;
+            }
+            .roum:hover:before, .card:hover:after{
+                animation: none;
+                opacity: 0;
+            }
+            .roum::before{
+                content: '';
+                width: 104%;
+                height: 102%;
+                border-radius: 8px;
+                background-image: 
+                linear-gradient(
+                    var(--rotate),#5ddcff,#3c67e3 43%, #4e00c2
+                    );
+                    position: absolute;
+                    z-index: -1;
+                    top: -1;
+                    left: -2;
+                    animation: spin 2.5s linear infinite;
+                }   
+                .midlane{
+                    border: 1px solid blue;
+                    background: #191c29;
+                    width: 400px;
+                    height: 550px;
+                    padding: 3px;
+                    position: relative;
+                    border-radius: 6px;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    font-size: 1.5em;
+                    color: blue;
+                    cursor: pointer;
+                    font-family: cursive;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-image: url('../mid.jpg');  
+                }
+                .midlane:hover{
+                    color: rgb(88 199 250 / 100%);
+                    transition:  2s;
+                    box-shadow: 0px 5px 100px blue;
+                    width: 650px;
+                    height: 750px;
+                    border: 3px solid darkblue;
+                }
+                .midlane:hover:before, .card:hover:after{
+                    animation: none;
+                    opacity: 0;
+                }
+                .midlane::before{
+                    content: '';
+                    width: 104%;
+                    height: 102%;
+                    border-radius: 8px;
+                    background-image: 
+                    linear-gradient(
+                        var(--rotate),#5ddcff,#3c67e3 43%, #4e00c2
+                        );
+                        position: absolute;
+                        z-index: -1;
+                        top: -1;
+                        left: -2;
+                        animation: spin 2.5s linear infinite;
+                    }     
+.h1{
+    margin-top: 450px;
+}                          
